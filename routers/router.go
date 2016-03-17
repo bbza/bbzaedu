@@ -13,4 +13,5 @@ func init() {
 	beego.AutoRouter(&controllers.AdminController{})
 	beego.AutoRouter(&controllers.UserController{})
 	beego.AutoRouter(&controllers.ShowcurriculumController{})
+	beego.Router("wechat", &controllers.WechatController{})
 }
